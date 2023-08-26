@@ -1,0 +1,20 @@
+{
+  "name": "cookbookhugothemedocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "hugo-bin": {
+    "buildTags": "extended"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "hugo-bin": "^0.113.0",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0"
+  }
+}
