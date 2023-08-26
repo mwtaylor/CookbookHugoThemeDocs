@@ -1,6 +1,8 @@
 baseURL: https://cookbooktheme.elephantintheroom.dev
-languageCode: en-us
 title: Cookbook Theme Documentation
+contentDir: "content/en"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
 module:
   proxy: direct
   hugoVersion:
@@ -11,3 +13,8 @@ module:
       disable: false
     - path: github.com/google/docsy/dependencies
       disable: false
+params:
+  # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+  github_repo: "https://github.com/mwtaylor/CookbookHugoThemeDocs"
+  # An optional link to a related project repo. For example, the sibling repository where your product code lives.
+  github_project_repo: "https://github.com/mwtaylor/CookbookHugoTheme"
